@@ -1,0 +1,43 @@
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# === Virtual Environment ===
+.venv/
+venv/
+env/
+
+# === Secrets & Credentials ===
+.env
+.env.local
+.env.*.local
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# === OS ===
+Thumbs.db
+.DS_Store
+
+# === Models (downloaded at runtime) ===
+*.onnx
+*.bin
+*.safetensors
+models/
+
+# === Logs ===
+*.log
+
+# === UV ===
+# Keep uv.lock for reproducibility

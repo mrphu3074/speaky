@@ -1,0 +1,17 @@
+[project]
+name = "speaky"
+version = "0.1.0"
+description = "Your AI buddy that helps you speak English like a pro! 🦜"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "livekit-agents>=1.4",
+    "livekit-plugins-silero>=1.4",
+    "livekit-plugins-google>=1.4",
+    "mlx-whisper>=0.4.3",
+    "pocket-tts>=1.1.1",
+    "python-dotenv>=1.0.0",
+    "huggingface-hub>=0.20.0",
+    "transformers>=4.40.0",
+    "onnxruntime>=1.17.0",
+]
